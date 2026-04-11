@@ -42,6 +42,7 @@ stdenvNoCC.mkDerivation (finalAttrs: {
   nativeBuildInputs = [
     makeBinaryWrapper
     nodejs_24
+    pnpm
     pnpmConfigHook
   ];
 
